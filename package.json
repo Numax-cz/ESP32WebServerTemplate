@@ -11,7 +11,7 @@
     "build": "node build.js",
     "clean": "rimraf data/",
     "build-tsc": "npx tsc",
-    "copy": "copyfiles -u 1 public/**/*html src/**/*.css data/"
+    "copy": "copyfiles -u 1 public/**/*html public/**/*.css data/"
   },
   "author": "",
   "license": "ISC",
