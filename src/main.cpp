@@ -1,4 +1,3 @@
-
 #include <Arduino.h>
 #include <WiFi.h>
 #include <ESPAsyncWebServer.h>
@@ -10,25 +9,14 @@ const int WIFI_TIME_OUT = 2000;
 
 AsyncWebServer server(80);
 
-
 String processor(const String& var){
   Serial.println(var);
-  // if(var == "STATE"){
-  //   if(digitalRead(ledPin)){
-  //     ledState = "ON";
-  //   }
-  //   else{
-  //     ledState = "OFF";
-  //   }
-  //   Serial.print(ledState);
-  //   return ledState;
-  // }
+
   return String();
 }
 
 void setup() {
   Serial.begin(9600);
-
 
   if(!SPIFFS.begin(true)){
       Serial.println("An Error has occurred while mounting SPIFFS");
@@ -69,8 +57,8 @@ void setup() {
 
     server.begin();
   }
-
 }
 
 void loop() {
+
 }
