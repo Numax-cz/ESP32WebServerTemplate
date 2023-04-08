@@ -6,7 +6,7 @@
 
 ## Instalation
 
-### What i need? 
+### What you need? 
 - [Git](https://git-scm.com/)
 - [Node - LTS](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/)
