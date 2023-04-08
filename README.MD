@@ -16,11 +16,13 @@
 
 1. Use this template
 
-2. Install the packages
+2. Clone the repository
+
+3. Install the packages
    ```sh
    npm install
    ```
-3. Set up PlatformIO config if you need
+4. Set up PlatformIO config if you need
 
 ---
 ## Upload files to board
@@ -29,5 +31,13 @@
    npm run build
    ```
    After you run the build script, your data directory has been created.
+   
+   ![Build](/doc/run_build.png)
 
 2. Build Filesystem Image
+   
+   ![Build](/doc/build.png)
+
+3. Upload Filesystem Image
+   
+   ![Build](/doc/upload.png)

@@ -7,6 +7,9 @@ async function main() {
     await buildTypescriptFiles();
 
     await copyAssets();
+
+    console.log();
+    console.log("/data has been successfully created!")
 }
 
 function cleanDistFolder() {
