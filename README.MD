@@ -24,6 +24,11 @@ ESP32WebServerTemplate is a template project for developing web server applicati
    ```
 4. Set up PlatformIO config if you need
 
+5. Configure WiFi in `src/main.cpp`
+   ```c++
+   const char *SSID = "";
+   const char *PASSWORD = "";
+   ```
 ---
 ## Upload files to board
 1. Run build script 
