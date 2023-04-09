@@ -1,12 +1,12 @@
 # ESP32WebServerTemplate
-
+ESP32WebServerTemplate is a template project for developing web server applications using ESP32 microcontroller and Arduino framework. It provides a simple and easy-to-use framework for building web applications with TypeScript.
 
 
 ---
 
 ## Instalation
 
-### What you need? 
+### What do you need? 
 - [Git](https://git-scm.com/)
 - [Node - LTS](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/)
